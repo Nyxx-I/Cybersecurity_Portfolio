@@ -1,8 +1,10 @@
-## Repositorio de aprendizaje de Linux como base para la formación en sistemas, administración y ciberseguridad.
+# Linux 
+
+Repositorio de aprendizaje de Linux como base para la formación en sistemas, administración y ciberseguridad.
 
 
 
-## Objetivos de aprendizaje
+# Objetivos de aprendizaje
 
 ### Al finalizar este módulo seré capaz de:
 
