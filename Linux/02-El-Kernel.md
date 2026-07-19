@@ -4,7 +4,7 @@ Es el núcleo del sistema operativo. Es la parte encargada de comunicarse direct
 
 ## Funciones principales del Kernel
 ### 1. Gestión de procesos:
-   - El Kernel administra los programas que están ejecutándose en el sistema.
+   - El Kernel administra los procesos que se están ejecutando en el sistema, asignando recursos del procesador y controlando su ciclo de vida.
 
 Sus funciones incluyen:
 - Crear procesos.
@@ -47,7 +47,7 @@ Gestiona:
 - Permisos.
 - Privilegios de administrador.
 
-## Comandos Basicos de Kernel
+## Comandos Básicos de Kernel
 | Comando | Para qué sirve |
 |---|---|
 | `uname -r` | Ver versión del Kernel |
@@ -66,7 +66,7 @@ Gestiona:
 - Código abierto: Su código fuente puede ser revisado, modificado y mejorado por la comunidad.
 - Multitarea: Permite ejecutar varios procesos al mismo tiempo.
 - Multiusuario: Permite que varios usuarios utilicen el sistema con diferentes permisos.
-- Modular: Puede agregar o eliminar módulos según las necesidades del sistema.
+- Modular: Permite cargar y descargar módulos para agregar funcionalidades o soporte para nuevos dispositivos sin modificar todo el Kernel.
 - Portable: Puede funcionar en diferentes dispositivos y arquitecturas.
 - Gestión de recursos: Administra el procesador, memoria, dispositivos y almacenamiento.
 - Seguridad: Controla permisos, privilegios y acceso a los recursos del sistema.
@@ -81,5 +81,9 @@ Comprender el funcionamiento del Kernel es importante en ciberseguridad porque p
 - Gestión de permisos.
 - Seguridad de servidores Linux.
 - Funcionamiento interno de herramientas de seguridad.
+
+  ## Resumen
+
+El Kernel es el componente central de Linux encargado de administrar los recursos del sistema y permitir la comunicación entre el software y el hardware. Su conocimiento es fundamental para la administración de sistemas, análisis de vulnerabilidades y seguridad informática.
 
   
