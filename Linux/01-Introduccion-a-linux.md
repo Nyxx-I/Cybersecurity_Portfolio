@@ -1,13 +1,29 @@
-Objetivos de aprendizaje
+## ¿Qué es Linux?
 
-Al finalizar este tema seré capaz de:
+Linux es un Sistema operativo de código abierto, basado en Unix el cual es utilizado en servidores, supercomputadoras y ciberseguridad.
 
-- Comprender qué es un sistema operativo.
-- Explicar qué es Linux.
-- Identificar las principales distribuciones.
-- Comprender la función del Kernel.
-- Utilizar la Terminal para administrar el sistema.
-- Ejecutar comandos básicos.
-- Comprender el sistema de archivos.
-- Administrar usuarios y permisos.
-- Instalar programas mediante repositorios.
+ ### Características:
+
+- Multiusuario.
+- Multitarea.
+- Seguro.
+- Personalizable.
+- Código abierto.
+
+ ## Distribuciones
+
+Ubuntu:
+- Fácil para principiantes.
+- Uso diario.
+
+Kali Linux:
+- Orientada a pruebas de seguridad.
+- Incluye herramientas de hacking ético.
+
+Debian:
+- Estabilidad y servidores.
+
+
+# Linux vs Window
+
+Linux es de codigo abierto con una terminal poderosa y es usado mayormente en servidores en cambio window, tiene un codigo cerrado con una interfaz grafica y es usado en escritorios.
