@@ -7,43 +7,43 @@
 ### Al finalizar este módulo seré capaz de:
 
 
--Comprender los fundamentos de un sistema operativo y su importancia dentro de la informática.
+- Comprender los fundamentos de un sistema operativo y su importancia dentro de la informática.
 
--Explicar qué es Linux, su arquitectura y sus principales características.
+- Explicar qué es Linux, su arquitectura y sus principales características.
 
--Identificar las principales distribuciones Linux y sus diferentes usos.
+- Identificar las principales distribuciones Linux y sus diferentes usos.
 
--Comprender la función del Kernel y su relación entre el hardware y el software.
+- Comprender la función del Kernel y su relación entre el hardware y el software.
 
--Utilizar la Terminal y la línea de comandos para administrar un sistema Linux.
+- Utilizar la Terminal y la línea de comandos para administrar un sistema Linux.
 
--Ejecutar comandos básicos para la navegación, gestión de archivos y administración del sistema.
+- Ejecutar comandos básicos para la navegación, gestión de archivos y administración del sistema.
 
--Comprender la estructura del sistema de archivos de Linux y la función de sus directorios principales.
+- Comprender la estructura del sistema de archivos de Linux y la función de sus directorios principales.
 
--Gestionar usuarios, grupos y permisos para controlar el acceso a los recursos del sistema.
+- Gestionar usuarios, grupos y permisos para controlar el acceso a los recursos del sistema.
 
--Instalar, actualizar y administrar programas mediante gestores de paquetes y repositorios.
+- Instalar, actualizar y administrar programas mediante gestores de paquetes y repositorios.
 
--Comprender la importancia de Linux dentro del área de ciberseguridad y sus principales herramientas.
-
-
-
-### Temas estudiados
+- Comprender la importancia de Linux dentro del área de ciberseguridad y sus principales herramientas.
 
 
--Introducción a Linux
 
--El Kernel
+## Temas estudiados
 
--La Terminal
 
--Comandos básicos
+- Introducción a Linux
 
--Sistema de archivos
+- El Kernel
 
--Usuarios y permisos
+- La Terminal
 
--Gestión de paquetes
+- Comandos básicos
 
--Linux aplicado a ciberseguridad
+- Sistema de archivos
+
+- Usuarios y permisos
+
+- Gestión de paquetes
+
+- Linux aplicado a ciberseguridad
