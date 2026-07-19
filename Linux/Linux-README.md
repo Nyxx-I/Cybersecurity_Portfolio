@@ -1,4 +1,4 @@
-# Linux 
+# Linux
 
 Repositorio de aprendizaje de Linux como base para la formación en sistemas, administración y ciberseguridad.
 
