@@ -1,27 +1,63 @@
 # ¿Qué es la Terminal?
 
-La Terminal es una interfaz basada en texto que permite controlar Linux mediante comandos. A diferencia de una interfaz gráfica, la Terminal ofrece un mayor control sobre el sistema y permite automatizar tareas. En ciberseguridad, la mayoría de las herramientas profesionales se utilizan desde la Terminal.
+La Terminal es una interfaz basada en texto que permite controlar Linux mediante comandos. A diferencia de una interfaz gráfica, la Terminal ofrece un mayor control sobre el sistema y permite automatizar tareas. En ciberseguridad, la mayoría de las herramientas profesionales se utilizan desde la Terminal ya que ofrece rapidez, precisión y acceso a funciones avanzadas del sistema operativo.
 
-## Sistema de Archivos
+---
 
-Linux organiza toda la información mediante una estructura jerárquica similar a un árbol. Todo comienza en el directorio raíz:  /
+## ¿Qué es un comando?
 
-A partir de él se organizan los demás directorios.
+Un comando es una instrucción que el usuario escribe en la Terminal para que el sistema operativo realice una acción determinada.
 
-Los principales son:
+Ejemplos:
 
-- /home → Archivos personales de los usuarios.
+* Mostrar la ubicación actual.
+* Listar archivos y directorios.
+* Crear carpetas.
+* Eliminar archivos.
+* Administrar usuarios.
 
-- /etc → Archivos de configuración del sistema.
+---
 
-- /bin → Programas esenciales.
+## Ventajas de utilizar la Terminal
 
-- /usr → Aplicaciones y utilidades.
+* Mayor control sobre el sistema.
+* Ejecución rápida de tareas.
+* Automatización mediante scripts.
+* Administración remota de servidores.
+* Uso de herramientas profesionales de ciberseguridad.
 
-- /var → Archivos que cambian constantemente (logs, bases de datos, etc.).
+---
 
-- /tmp → Archivos temporales.
+## Estructura básica de un comando
 
-- /boot → Archivos necesarios para iniciar el sistema.
+La mayoría de los comandos siguen esta estructura:
 
-Esta organización facilita la administración y la seguridad del sistema.
+```bash
+comando [opciones] [argumentos]
+```
+
+Ejemplo:
+
+```bash
+ls -l /home
+```
+
+* **ls** → comando.
+* **-l** → opción.
+* **/home** → argumento.
+
+---
+
+## La Terminal en ciberseguridad
+
+La Terminal es una herramienta fundamental para profesionales de ciberseguridad, ya que permite ejecutar utilidades como:
+
+* Nmap
+* Wireshark (CLI)
+* Burp Suite
+* Metasploit
+* OpenSSH
+* John the Ripper
+* Hashcat
+
+El dominio de la Terminal es una habilidad esencial para la administración de sistemas, el análisis forense y las pruebas de penetración.
