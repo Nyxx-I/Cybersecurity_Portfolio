@@ -1,15 +1,16 @@
-# Comandos básicos de linux
+# Comandos básicos de Linux
 
 Los comandos de Linux son instrucciones que el usuario escribe en la Terminal para interactuar con el sistema operativo. A través de ellos es posible navegar por el sistema de archivos, administrar documentos, gestionar permisos, instalar programas y realizar tareas de administración.
 
 ### 1. pwd (Print Working Directory):
-Muestra la ubicación actual del usuario dentro del sistema de archivo y permite conocer el directorio en el que se está trabajando. Ejemplo:
+Muestra la ubicación actual del usuario dentro del sistema de archivos y permite conocer el directorio en el que se está trabajando. Ejemplo:
 
 ```bash
 pwd
 ```
 ### 2. ls (List)
 Lista el contenido del directorio actual y permite visualizar archivos y carpetas. Ejemplo:
+
 ```bash
 ls
 ```
@@ -36,8 +37,16 @@ Muestra todos los archivos, incluyendo los ocultos. En Linux, los archivos ocult
 Ejemplo:
 
 ```bash
+ls -a
+```
+
+Salida:
+
+```text
 .bashrc
 .profile
+Documentos
+Descargas
 ```
 
 ### 5. cd (Change Directory)
@@ -45,6 +54,12 @@ Permite cambiar de directorio y navegar entre carpetas. Ejemplo:
 
 ```bash
 cd documentos
+```
+
+o
+
+```bash
+cd /home/usuario/Documentos
 ```
 ### 6. cd ..
 Regresa al directorio anterior y sube un nivel dentro del árbol de directorios.
@@ -100,7 +115,7 @@ rmdir proyectos
 ### 14. rm -r
 Elimina directorios junto con todo su contenido.
 
-**advertencia**: Debe utilizarse con precaución, ya que elimina archivos y subdirectorios de forma permanente.
+**Advertencia**: Debe utilizarse con precaución, ya que elimina archivos y subdirectorios de forma permanente.
 
 Ejemplo:
 
