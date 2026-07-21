@@ -5,7 +5,115 @@ Los comandos de Linux son instrucciones que el usuario escribe en la Terminal pa
 ### 1. pwd (Print Working Directory):
 Muestra la ubicación actual del usuario dentro del sistema de archivo y permite conocer el directorio en el que se está trabajando. Ejemplo:
 
-´´´Bash
+```bash
+</> Bash
 pwd
-´´´
+```
+### 2. ls (List)
+Lista el contenido del directorio actual y permite visualizar archivos y carpetas. Ejemplo:
+```bash
+</> Bash
+ls
+```
+### 3. ls -l
+Muestra una lista detallada del contenido.
 
+### **Información mostrada**
+- Permisos.
+
+- Propietario.
+
+- Grupo.
+
+- Tamaño.
+
+- Fecha de modificación.
+
+- Nombre del archivo.
+
+Es uno de los comandos más utilizados para revisar permisos.
+
+### 4. ls -a
+Muestra todos los archivos, incluyendo los ocultos. En Linux, los archivos ocultos comienzan con un punto (.).
+Ejemplo:
+
+```bash
+.bashrc
+.profile
+```
+
+### 5. cd (Change Directory)
+Permite cambiar de directorio y navegar entre carpetas. Ejemplo:
+
+```bash
+</> Bash
+cd documentos
+```
+### 6. cd ..
+Regresa al directorio anterior y sube un nivel dentro del árbol de directorios.
+
+### 7. cd ~
+Lleva al directorio personal del usuario.
+
+### 8. mkdir (Make Directory)
+Crea un nuevo directorio y organiza archivos en carpetas. Ejemplo:
+
+```Bash
+</> Bash
+mkdir proyectos
+```
+### 9. touch
+Crea un archivo vacío y genera nuevos archivos para posteriormente editarlos. Ejemplo:
+
+```Bash
+</> Bash
+touch notas.txt
+```
+### 10. cp (Copy)
+Copia archivos o directorios. Duplica información sin modificar el archivo original. Ejemplo:
+
+```Bash
+</> Bash
+cp archivo.txt
+```
+### 11. mv (Move)
+Mueve o cambia el nombre de un archivo. Cambia ubicación y renombra archivos. Ejemplo: 
+
+```Bash
+</> Bash
+mv informe.txt documentos/
+```
+o
+
+```Bash
+</> Bash
+mv viejo.txt nuevo.txt
+```
+### 12. rm (Remove)
+Elimina archivos. El archivo se elimina directamente del sistema. Ejemplo:
+
+```Bash
+</> Bash
+rm archivo.txt
+```
+### 13. rmdir
+Elimina directorios vacíos. Ejemplo:
+
+```Bash
+</> Bash
+rmdir proyectos
+```
+### 14. rm -r
+Elimina directorios junto con todo su contenido.
+
+**advertencia**: Debe utilizarse con precaución, ya que elimina archivos y subdirectorios de forma permanente.
+
+Ejemplo:
+
+```Bash
+</> Bash
+rm -r proyectos
+```
+## En resumen
+
+Los comandos básicos de Linux son fundamentales para cualquier profesional de tecnologías de la información y, especialmente, para quienes desean especializarse en ciberseguridad. Aunque son sencillos, representan la base sobre la que se apoyan tareas más avanzadas, como la administración de sistemas, el análisis de redes, la automatización mediante scripts y el uso de herramientas de pruebas de seguridad.
